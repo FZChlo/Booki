@@ -1,12 +1,89 @@
+/* Body */
+body {
+    margin: 1%;
+}
+
+
+/*           HEADER          */
+
+
+/* Navbar + Logo*/
 #conteneur {
     display: flex;
-    justify-content: space-between;   
 }
 
-body {
-    margin: 2%;
+.element:nth-child(2){
+    flex: 1;
 }
 
+
+/* Navbar */
+#menu {
+    display: flex;
+}
+
+#menu ul {
+    padding: 0;
+    width: 100%;
+    
+}
 #menu li {
-    display: inline;  
+    display: inline; 
+     
+}
+#menu a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 1%;
+    width: 10%;
+    text-align: center;
+    line-height: 5;
+    border-top: 2px solid #0065FC;
+    color: black;
+}
+
+
+/* Menu filtres */
+.filtres {
+    display: flex;
+}
+
+.filtres ul {
+    padding: 0;
+    width: 100%;
+}
+
+.filtres li {
+    display: inline;     
+}
+
+.filtres p {
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 2;
+}
+.filtres a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 0.625%;
+    width: 10%;
+    text-align: center;
+    line-height: 2;
+    border: 2px solid #F2F2F2;
+    border-radius: 60px; 
+    color: black; 
+}
+
+li:last-child a {
+    margin-right: 0;
+  }
+
+/* Barre de recherche */
+button {
+    border: 2px solid #0065FC;
+    border-radius: 10px;
+    background-color: #0065FC;
+    color: #F2F2F2;
 }
