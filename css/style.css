@@ -24,23 +24,30 @@ body {
 
 #menu ul {
     padding: 0;
-    width: 100%;
-    
+    width: 100%;  
 }
 #menu li {
-    display: inline
-     
+    display: inline;
+    float: right;    
+    width: 20%;
 }
 #menu a {
     outline: none;
     text-decoration: none;
     display: inline-block;
     margin-right: 1%;
-    width: 10%;
+    width: 80%;
     text-align: center;
     line-height: 5;
     border-top: 2px solid #0065FC;
     color: black;
+}
+#menu a:hover {
+    color: #0065FC;
+}
+#menu a:active {
+    color: #0065FC;
+    background-color: #DEEBFF;
 }
 
 
@@ -75,15 +82,98 @@ body {
     border-radius: 60px; 
     color: black; 
 }
+.filtres i {
+    float: left;
+    border: 2px solid #DEEBFF;
+    border-radius: 60px;
+    line-height: 2;
+    width: 20%;
+    text-align: center;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+/*Apparence au survol des liens*/
+.filtres a:hover{
+    background-color: #0065FC;
+    color: #DEEBFF;
+}
 
 li:last-child a {
     margin-right: 0;
   }
 
 /* Barre de recherche */
+#recherche {
+    display: flex;
+    height: 35px;
+}
+#site-search {
+    border: 2px solid #F2F2F2;
+}
+#recherche i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F2F2F2;
+    border-radius: 20px 0px 0px 20px;
+    width: 2%;
+    background-color: #F2F2F2;
+}
 button {
     border: 2px solid #0065FC;
-    border-radius: 10px;
+    border-radius: 0px 20px 20px 0px;
+    width: 5%;
     background-color: #0065FC;
     color: #F2F2F2;
+}
+
+/*             BODY              */
+.bloc1 {
+    display: flex;
+
+}
+
+
+#hebergements {
+    display: flex;
+    flex-direction:row;
+    border: 2px solid #F2F2F2;
+    border-radius: 60px; 
+    background-color: #F2F2F2;
+    width: 70% ;
+}
+#populaires {
+    display: flex;
+    border: 2px solid #F2F2F2;
+    border-radius: 60px;
+    background-color: #F2F2F2;
+    width: 30%; 
+}
+img{
+    max-width : 90%;
+    max-height: 100%;
+    border-radius: 20px;
+    
+}
+.appartement {
+    border: 2px solid white;
+    border-radius: 20px; 
+    background-color: white;
+    width: 100%;
+    height: 90%;
+    margin: 5px;
+}
+.appartement a {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+}
+.appartement a:hover {
+    background-color: #F2F2F2;
 }
