@@ -1,5 +1,3 @@
-/* Body */
-
 body {
     margin: 1%;
     font-family: Raleway;
@@ -168,7 +166,7 @@ button {
 }
 
 
-/*             BODY              */
+/*             Main              */
 
 .bloc1 {
     display: flex;
@@ -200,7 +198,6 @@ img {
 .appartement a {
     display: flex;
     flex-direction: column;
-    align-items: left;
     text-decoration: none;
     color: black;
     text-align: left;
@@ -466,3 +463,82 @@ footer a {
     color: black;
     text-align: left;
 }
+
+
+/*       Responsive         */
+
+@media screen and (max-width: 992px) {
+    /* Header */
+    .conteneur {
+        width: auto;
+    }
+    button {
+        width: auto;
+    }
+    .filtres {
+        width: auto;
+        justify-content: space-around;
+    }
+    .filtres a {
+        width: 30%;
+    }
+    .filtres i {
+        width: 20%;
+        float: left;
+    }
+    /* Main*/
+    /* Section Hebergements */
+    .bloc1 {
+        flex-direction: column;
+    }
+    #hebergements {
+        width: 100%;
+    }
+    .appartement {
+        width: 35%;
+        height: 30%;
+    }
+    .appartement a {
+        height: 250px;
+    }
+    #cannebiere h4 {
+        margin-bottom: 4px;
+    }
+    .appartement img {
+        height: 120px;
+        width: 180px;
+    }
+    /* Section Populaires */
+    #populaires {
+        flex-direction: column;
+        width: 756px;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .plusPopulaires i {
+        margin-left: 400px;
+    }
+    /* Section Activités */
+    #activités {
+        width: 100%;
+        flex-direction: column;
+    }
+    .bigBloc {
+        width: auto;
+        height: 370px;
+    }
+    .bigBloc img {
+        height: 300px;
+        width: 700px;
+    }
+    .blocOfTwo {
+        width: auto;
+        flex-direction: column;
+    }
+    .blocOfTwo img {
+        height: 300px;
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 768px) {}
