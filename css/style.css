@@ -1,4 +1,5 @@
 /* Body */
+
 body {
     margin: 1%;
     font-family: Raleway;
@@ -9,29 +10,33 @@ body {
 
 
 /* Navbar + Logo*/
+
 #conteneur {
     display: flex;
 }
 
-.element:nth-child(2){   
+.element:nth-child(2) {
     flex: 1;
 }
 
 
 /* Navbar */
+
 #menu {
     display: flex;
 }
 
 #menu ul {
     padding: 0;
-    width: 100%;  
+    width: 100%;
 }
+
 #menu li {
     display: inline;
-    float: right;    
+    float: right;
     width: 20%;
 }
+
 #menu a {
     outline: none;
     text-decoration: none;
@@ -43,9 +48,11 @@ body {
     border-top: 2px solid #0065FC;
     color: black;
 }
+
 #menu a:hover {
     color: #0065FC;
 }
+
 #menu a:active {
     color: #0065FC;
     background-color: #DEEBFF;
@@ -53,6 +60,7 @@ body {
 
 
 /* Menu filtres */
+
 .filtres {
     display: flex;
 }
@@ -63,26 +71,30 @@ body {
 }
 
 .filtres li {
-    display: inline;     
+    display: inline;
 }
 
 .filtres p {
     margin-right: 0.625%;
     text-align: center;
     line-height: 2;
+    font-weight: bold;
 }
+
 .filtres a {
     outline: none;
     text-decoration: none;
     display: inline-block;
     margin-right: 0.625%;
-    width: 10%;
+    width: 11%;
     text-align: center;
     line-height: 2;
     border: 2px solid #F2F2F2;
-    border-radius: 60px; 
-    color: black; 
+    border-radius: 60px;
+    color: black;
+    font-weight: bold;
 }
+
 .filtres i {
     float: left;
     border: 2px solid #DEEBFF;
@@ -93,41 +105,55 @@ body {
     background-color: #DEEBFF;
     color: #0065FC;
 }
+
+
 /*Apparence au survol des liens*/
-.filtres a:hover{
+
+.filtres a:hover {
     background-color: #0065FC;
     color: #DEEBFF;
 }
 
 li:last-child a {
     margin-right: 0;
-  }
+}
+
 
 /* Barre de recherche */
+
 #recherche {
     display: flex;
     height: 35px;
 }
-#site-search {
+
+#search {
     border: 2px solid #F2F2F2;
+    font-weight: bold;
 }
+
+#search::placeholder {
+    color: black !important;
+}
+
 #recherche i {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px solid #F2F2F2;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 10px 0px 0px 10px;
     width: 2%;
     background-color: #F2F2F2;
 }
+
 button {
     border: 2px solid #0065FC;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 10px 10px 0px;
     width: 5%;
     background-color: #0065FC;
     color: #F2F2F2;
 }
-p i {
+
+.info i {
     text-align: center;
     color: #0065FC;
     border: 2px solid #F2F2F2;
@@ -136,46 +162,59 @@ p i {
     height: 1%;
 }
 
-/*             BODY              */
-.bloc1 {
-    display: flex;
-
+.info {
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
+
+/*             BODY              */
+
+.bloc1 {
+    display: flex;
+}
 
 #hebergements {
     border: 2px solid #F2F2F2;
-    border-radius: 60px; 
+    border-radius: 20px;
     background-color: #F2F2F2;
-    width: 65% ;
-    margin-right: 20px;
+    width: 65%;
+    height: fit-content;
+    margin-right: 10px;
 }
 
-img{
+img {
     border-radius: 20px;
-    margin: 2px;  
+    margin: 2px;
 }
+
 .appartement {
     border: 2px solid white;
-    border-radius: 20px; 
+    border-radius: 20px;
     background-color: white;
-    margin: 10px;
+    margin: 5px;
+    width: 30%;
+    height: 30%;
 }
+
 .appartement a {
     display: flex;
     flex-direction: column;
-    align-items: left;  
+    align-items: left;
     text-decoration: none;
     color: black;
     text-align: left;
     margin: 5px;
 }
-.appartement h5 {
+
+.appartement h4 {
     margin-left: 10px;
 }
+
 .appartement p {
     margin-left: 10px;
 }
+
 .appartement a:hover {
     background-color: #F2F2F2;
 }
@@ -183,12 +222,14 @@ img{
 .hebergementMarseille {
     display: inline;
     margin-top: 20px;
-
 }
-.hebergementMarseille h4 {
+
+.hebergementMarseille h3 {
     margin-left: 60px;
     margin-top: 40px;
+    font-weight: bold;
 }
+
 .premiereLigne {
     display: flex;
     justify-content: space-between;
@@ -196,6 +237,7 @@ img{
     margin-right: 50px;
     margin-top: 20px;
 }
+
 .deuxiemeLigne {
     display: flex;
     justify-content: space-between;
@@ -204,82 +246,111 @@ img{
     margin-top: 20px;
 }
 
+.deuxiemeLigne img {
+    height: 213px;
+}
+
+
 /*étoiles*/
+
 .starsContainer {
     display: flex;
 }
+
 .starsApp {
     margin-left: 10px;
     color: #0065FC;
 }
+
 .badStarsApp {
     color: grey;
 }
 
-
 .txtAfficher a {
-    margin-left: 60px ;
+    margin-left: 60px;
     text-decoration: none;
     color: black;
 }
+
 .txtAfficher a:hover {
-    color:#0065FC;
+    color: #0065FC;
 }
+
 .txtAfficher p {
-    margin-left: 60px ;
+    margin-left: 60px;
 }
 
 
 /*Section Les Plus Populaires*/
+
 #populaires {
     display: flex;
     flex-direction: column;
     border: 2px solid #F2F2F2;
-    border-radius: 60px;
+    border-radius: 20px;
     background-color: #F2F2F2;
-    width: 30%;    
+    width: 30%;
+    margin-left: 30px;
 }
+
 .plusPopulaires {
     display: flex;
     margin-top: 30px;
 }
+
 .plusPopulaires i {
     display: flex;
     align-items: center;
-    margin-left: 300px;
+    margin-left: 250px;
 }
 
-.plusPopulaires h4 {
+.plusPopulaires h3 {
     margin-left: 60px;
 }
+
 .populaire {
     border: 2px solid white;
-    border-radius: 20px; 
+    border-radius: 20px;
     background-color: white;
     margin: 30px;
+    height: 30%;
 }
+
 .populaire a {
-    display: flex; 
+    display: flex;
     text-decoration: none;
     color: black;
     margin: 2px;
 }
+
+.populaire img {
+    width: 40%;
+    height: 200px;
+    border-radius: 10px 0px 0px 10px;
+}
+
 .populaire a:hover {
     background-color: #F2F2F2;
 }
+
 .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 40px;
 }
+
+
 /*étoiles*/
+
 .starsPopulaires {
     display: flex;
 }
+
 .goodStarsPop {
     color: #0065FC;
 }
+
 .badStarsPop {
     color: grey;
 }
@@ -291,6 +362,7 @@ img{
     display: flex;
     margin-top: 10px;
 }
+
 #activités img {
     border-radius: 20px 20px 0px 0px;
 }
@@ -301,20 +373,30 @@ img{
     margin-left: 40px;
 }
 
-
-.bigBloc{
+.bigBloc {
     display: flex;
     border: 2px solid #F2F2F2;
-    border-radius: 20px; 
+    border-radius: 20px;
     box-shadow: 8px 8px 12px #F2F2F2;
     background-color: white;
     margin-left: 20px;
     margin-right: 20px;
+    height: auto;
 }
+
 .bigBloc a {
     text-decoration: none;
     color: black;
-    text-align: center;
+    text-align: left;
+}
+
+.bigBloc img {
+    height: 580px;
+    width: 100%;
+}
+
+.bigBloc h4 {
+    margin-left: 15px;
 }
 
 .blocOfTwo {
@@ -322,50 +404,65 @@ img{
     flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
+    height: auto;
+    width: 40%;
 }
+
 .blocOfTwo a {
     text-decoration: none;
     color: black;
-    text-align: center;
+    text-align: left;
 }
 
-.fort{
-    border: 2px solid #F2F2F2;
-    border-radius: 20px; 
-    box-shadow: 8px 8px 12px #F2F2F2;
-    background-color: white;
-    margin-bottom: 5px;
+.blocOfTwo img {
+    height: 250px;
+    width: 100%;
 }
-.iles{
-    border: 2px solid #F2F2F2;
-    border-radius: 20px; 
-    box-shadow: 8px 8px 12px #F2F2F2;
-    background-color: white;
+
+.blocOfTwo h4 {
+    margin-left: 15px;
 }
-.dame{
-    border: 2px solid #F2F2F2;
-    border-radius: 20px; 
-    box-shadow: 8px 8px 12px #F2F2F2;
-    background-color: white;
-    margin-bottom: 5px;
-}
-.parc{
+
+.fort {
     border: 2px solid #F2F2F2;
     border-radius: 20px;
-    box-shadow: 8px 8px 12px #F2F2F2; 
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.iles {
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
     background-color: white;
 }
+
+.dame {
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.parc {
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    background-color: white;
+}
+
 
 /*     FOOTER     */
 
 footer {
     display: flex;
+    justify-content: space-around;
     margin-top: 10px;
     border: 2px solid #F2F2F2;
-    border-radius: 20px; 
+    border-radius: 0px;
     background-color: #F2F2F2;
 }
+
 footer a {
     text-decoration: none;
-    color :black;
+    color: black;
+    text-align: left;
 }
