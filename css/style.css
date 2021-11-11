@@ -41,7 +41,7 @@ body {
     width: 80%;
     text-align: center;
     line-height: 5;
-    border-top: 2px solid #0065FC;
+    border-top: 3px solid #0065FC;
     color: black;
 }
 
@@ -52,6 +52,16 @@ body {
 #menu a:active {
     color: #0065FC;
     background-color: #DEEBFF;
+}
+
+.menuHebergement a {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menuActivite a {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -174,6 +184,10 @@ button {
     display: flex;
 }
 
+.bloc1 h4 {
+    margin-bottom: 4px;
+}
+
 .hebergements {
     border: 2px solid #F2F2F2;
     border-radius: 20px;
@@ -237,6 +251,10 @@ img {
     margin-top: 20px;
 }
 
+.premiereLigne img {
+    height: 200px;
+}
+
 .deuxiemeLigne {
     display: flex;
     justify-content: space-between;
@@ -246,7 +264,7 @@ img {
 }
 
 .deuxiemeLigne img {
-    height: 213px;
+    height: 200px;
 }
 
 
@@ -254,6 +272,7 @@ img {
 
 .starsContainer {
     display: flex;
+    margin-bottom: 5px;
 }
 
 .starsApp {
@@ -345,6 +364,7 @@ img {
 
 .starsPopulaires {
     display: flex;
+    margin-top: 60px;
 }
 
 .goodStarsPop {
@@ -507,6 +527,9 @@ footer a {
         flex-direction: column;
         margin: 5px;
     }
+    .bloc1 h4 {
+        margin-bottom: 4px;
+    }
     .hebergementMarseille h3 {
         margin-left: 10px;
     }
@@ -520,12 +543,9 @@ footer a {
     .appartement a {
         height: 250px;
     }
-    #cannebiere h4 {
-        margin-bottom: 4px;
-    }
     .appartement img {
         height: 120px;
-        width: 180px;
+        width: 100%;
     }
     .premiereLigne {
         margin-left: 0px;
