@@ -1,30 +1,398 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><!--Importation du Css--><link href="css/style.css" rel="stylesheet" type="text/css" /><!--Google Fonts Raleway--><style>@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
-</style><!--Fontawesome--><script src="https://kit.fontawesome.com/e94b4ac860.js" crossorigin="anonymous"></script><title>Booki</title></head><body><!--Header--><header><div id="conteneur"><!--Logo--><div class="element 1"><p><img src="assets/Booki.png" alt="Logo Booki" /></p></div><!--NavBar--><div class="element 2"><nav id="menu"><ul><div class="menuHebergement"><li><a href="#hebergements">Hébergements</a></li></div><div class="menuActivite"><li><a href="#ancre-activite">Activités</a></li></div></ul></nav></div></div><!--Titre,
-SousTitre--><section id="titre"><h1>Trouvez votre hébergement pour des vacances de rêve</h1><p>En plein centre ville ou en pleine nature</p></section><!--Recherche et filtres--><section id="recherche"><div class="ping"><i class="fas fa-map-marker-alt"></i></div><input type="text" id="search" name="search" placeholder=" Marseille, France" /><button>Rechercher</button><button type="submit" class="boutonLoupe"><i class="fas fa-search"></i></button></section><nav class="filtres"><p>Filtres</p><ul><li><a href="#"><i class="fas fa-money-bill-wave-alt"></i>Economique</a></li><li><a href="#"><i class="fas fa-male"></i>Familial</a></li><li><a href="#"><i class="fas fa-heart"></i>Romantique</a></li><li><a href="#"><i class="fas fa-dog"></i>Animaux autorisés</a></li></ul></nav><div class="info"><p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville </p></div></header><!--Section 1 Hebergement--><main><div class="bloc1"><div class="hebergements"><div class="hebergementMarseille"><h2>Hébergements à Marseille</h2></div><div class="premiereLigne"><div class="appartement 1" id="cannebiere"><a href="#"><img src="assets/img_hebergements/auberge_la_canebiere.jpg" alt="app1" /><h3>Auberge La Cannebière</h3><p>Nuit à partir de <strong>25€</strong></p><div class="starsContainer"><div class="starsApp"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><div class="badStarsApp"><i class="fas fa-star"></i></div></div></a></div><div class="appartement 2"><a href="#"><img src="assets/img_hebergements/hotel_du_port.jpg" alt="app2" /><h3>Hôtel du port</h3><p>Nuit à partir de <strong>52€</strong></p><div class="starsContainer"><div class="starsApp"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div></a></div><div class="appartement 3"><a href="#"><img src="assets/img_hebergements/hotel_les_mouettes.jpg" alt="app3" /><h3>Hôtel les mouettes</h3><p>Nuit à partir de <strong>76€</strong></p><div class="starsContainer"><div class="starsApp"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><div class="badStarsApp"><i class="fas fa-star"></i></div></div></a></div></div><div class="deuxiemeLigne"><div class="appartement 4"><a href="#"><img src="assets/img_hebergements/hotel_de_la_mer.jpg" alt="app4" /><h3>Hôtel de la mer</h3><p>Nuit à partir de <strong>46€</strong></p><div class="starsContainer"><div class="starsApp"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><div class="badStarsApp"><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div></a></div><div class="appartement 5"><a href="#"><img src="assets/img_hebergements/auberge_le_panier.jpg" alt="app5" /><h3>Auberge Le Panier</h3><p>Nuit à partir de <strong>23€</strong></p><div class="starsContainer"><div class="starsApp"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><div class="badStarsApp"><i class="fas fa-star"></i></div></div></a></div><div class="appartement 6"><a href="#"><img src="assets/img_hebergements/hotel_chez_amina.jpg" alt="app6" /><h3>Hôtel chez Amina</h3><p>Nuit à partir de <strong>96€</strong></p><div class="starsContainer"><div class="starsApp"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div></a></div></div><div class="txtAfficher"><a href="#"><p><strong>Afficher plus</strong></p></a></div></div><!--Section 2 Populaires--><div class="populaires"><div class="plusPopulaires"><h2>Les plus populaires</h2><i class="fas fa-chart-line"></i></div><div class="populaire 1"><a href="#"><img src="assets/img_populaires/le_soleil_du_matin.jpg" alt="pop1" /><div class="content 1"><h3>Hôtel Le soleil du matin</h3><p>Nuit à partir de <strong>128€</strong></p><div class="starsPopulaires"><div class="goodStarsPop"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div></div></a></div><div class="populaire 2"><a href="#"><img src="assets/img_populaires/au_coeur_de_leau.jpg" alt="pop2" /><div class="content 2"><h3>Au coeur de l'eau Chambres d'hôtes</h3><p>Nuit à partir de <strong>71€</strong></p><div class="starsPopulaires"><div class="goodStarsPop"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><div class="badStarsPop"><i class="fas fa-star"></i></div></div></div></a></div><div class="populaire 3"><a href="#"><img src="assets/img_populaires/hotel_tout_bleu_et_blanc.jpg" alt="pop3" /><div class="content 3"><h3>Hôtel tout bleu et Blanc</h3><p>Nuit à partir de <strong>68€</strong></p><div class="starsPopulaires"><div class="goodStarsPop"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><div class="badStarsPop"><i class="fas fa-star"></i></div></div></div></a></div></div></div><!--Section 3 Activités--><div class="activiteMarseille"><h2 id="ancre-activite">Activités à Marseille</h2></div><section id="activités"><div class="bigBloc 1"><a href="#"><img src="assets/img_activites/vieuxPort.jpg" alt="vieuxPort" /><h3>Vieux Port</h3></a></div><div class="blocOfTwo 1"><div class="fort"><a href="#"><img src="assets/img_activites/fort.jpg" alt="fort" /><h3>Fort de Pomègues</h3></a></div><div class="iles"><a href="#"><img src="assets/img_activites/iles.jpg" alt="iles" /><h3>Îles du Frioul</h3></a></div></div><div class="bigBloc 2"><a href="#"><img src="assets/img_activites/calanques.jpg" alt="calanques" /><h3>Parc National des Calanques</h3></a></div><div class="blocOfTwo 2"><div class="dame"><a href="#"><img src="assets/img_activites/dame.jpg" alt="dameGarde" /><h3>Notre-Dame-de-la-Garde</h3></a></div><div class="parc"><a href="#"><img src="assets/img_activites/longchamp.jpg" alt="parc" /><h3>Parc Longchamp</h3></a></div></div></section></main><!--Footer--><footer><nav id="aPropos"><a href="#"><h3>A propos</h3></a><p><a href="#">Fonctionnement du site</a></p><p><a href="#">Conditions génèrales de vente</a></p><p><a href="#">Données et confidentialité</a></p></nav><nav id="nosHebergements"><a href="#"><h3>Nos hébergements</h3></a><p><a href="#">Charte qualité</a></p><p><a href="#">Soumettre votre hôtel</a></p></nav><nav id="assistance"><a href="#"><h3>Assistance</h3></a><p><a href="#">Centre d'aide</a></p>
- <p><a href="#">Nous contacter</a></p></nav></footer></body></html>play: flex;
-margin-top: 60px;
-
+body {
+    font-family: Raleway;
+    margin: 10px;
 }
+
+
+/*           HEADER          */
+
+
+/* Navbar + Logo*/
+
+#conteneur {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Navbar */
+
+#menu {
+    display: flex;
+    flex-direction: row;
+}
+
+#menu ul {
+    display: flex;
+    padding: 0;
+}
+
+#menu li {
+    display: flex;
+    width: auto;
+    margin-right: 40px;
+}
+
+#menu a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 1%;
+    width: 80%;
+    text-align: center;
+    line-height: 5;
+    border-top: 3px solid #0065FC;
+    color: black;
+}
+
+#menu a:hover {
+    color: #0065FC;
+}
+
+#menu a:active {
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+.menuHebergement a {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menuActivite a {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* Menu filtres */
+
+.filtres {
+    display: flex;
+}
+
+.filtres ul {
+    padding: 0;
+    width: 100%;
+}
+
+.filtres li {
+    display: inline;
+}
+
+.filtres p {
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.filtres a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 0.625%;
+    width: 20%;
+    text-align: center;
+    line-height: 2;
+    border: 2px solid #F2F2F2;
+    border-radius: 60px;
+    color: black;
+    font-weight: bold;
+}
+
+.filtres i {
+    float: left;
+    border: 2px solid #DEEBFF;
+    border-radius: 60px;
+    line-height: 2;
+    width: 20%;
+    text-align: center;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
+
+/*Apparence au survol des liens*/
+
+.filtres a:hover {
+    background-color: #0065FC;
+    color: #DEEBFF;
+}
+
+li:last-child a {
+    margin-right: 0;
+}
+
+
+/* Barre de recherche */
+
+#recherche {
+    display: flex;
+    height: 35px;
+}
+
+#search {
+    border: 2px solid #F2F2F2;
+    font-weight: bold;
+}
+
+#search::placeholder {
+    color: black !important;
+}
+
+.ping {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+    width: 2%;
+    background-color: #F2F2F2;
+}
+
+button {
+    border: 2px solid #0065FC;
+    border-radius: 0px 10px 10px 0px;
+    width: auto;
+    background-color: #0065FC;
+    color: #F2F2F2;
+}
+
+.boutonLoupe {
+    display: none;
+}
+
+.info i {
+    text-align: center;
+    color: #0065FC;
+    border: 2px solid #F2F2F2;
+    border-radius: 80px;
+    width: 1%;
+    height: 1%;
+}
+
+.info {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+/*             Main              */
+
+.bloc1 {
+    display: flex;
+}
+
+.bloc1 h3 {
+    margin-bottom: 4px;
+}
+
+.hebergements {
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    width: 65%;
+    height: fit-content;
+    margin-right: 10px;
+}
+
+img {
+    border-radius: 20px;
+    margin: 2px;
+}
+
+.appartement {
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: white;
+    margin: 5px;
+    width: 30%;
+    height: 30%;
+}
+
+.appartement a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    margin: 0px;
+}
+
+.appartement h3 {
+    margin-left: 10px;
+}
+
+.appartement p {
+    margin-left: 10px;
+}
+
+.appartement a:hover {
+    background-color: #F2F2F2;
+}
+
+.hebergementMarseille {
+    display: inline;
+    margin-top: 20px;
+}
+
+.hebergementMarseille h2 {
+    margin-left: 60px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.premiereLigne {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.premiereLigne img {
+    height: 200px;
+}
+
+.deuxiemeLigne {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.deuxiemeLigne img {
+    height: 200px;
+}
+
+
+/*étoiles*/
+
+.starsContainer {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.starsApp {
+    margin-left: 10px;
+    color: #0065FC;
+}
+
+.badStarsApp {
+    color: grey;
+}
+
+.txtAfficher a {
+    margin-left: 60px;
+    text-decoration: none;
+    color: black;
+}
+
+.txtAfficher a:hover {
+    color: #0065FC;
+}
+
+.txtAfficher p {
+    margin-left: 60px;
+}
+
+
+/*Section Les Plus Populaires*/
+
+.populaires {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    width: 30%;
+    margin-left: 30px;
+}
+
+.plusPopulaires {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.plusPopulaires i {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.plusPopulaires h2 {
+    margin-left: 40px;
+}
+
+.populaire {
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: white;
+    margin: 30px;
+    height: 30%;
+}
+
+.populaire a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin: 2px;
+}
+
+.populaire img {
+    width: 40%;
+    height: 200px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.populaire a:hover {
+    background-color: #F2F2F2;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+
+/*étoiles*/
+
+.starsPopulaires {
+    display: flex;
+    margin-top: 60px;
+}
+
 .goodStarsPop {
     color: #0065FC;
 }
+
 .badStarsPop {
     color: grey;
 }
 
+
 /*  Section Activités */
+
 #activités {
     display: flex;
     margin-top: 10px;
 }
+
 #activités img {
     border-radius: 20px 20px 0px 0px;
 }
+
 .activiteMarseille {
     display: flex;
     margin-top: 50px;
     margin-left: 40px;
 }
+
 .bigBloc {
     display: flex;
     border: 2px solid #F2F2F2;
@@ -35,19 +403,23 @@ margin-top: 60px;
     margin-right: 20px;
     height: auto;
 }
+
 .bigBloc a {
     text-decoration: none;
     color: black;
     text-align: left;
 }
+
 .bigBloc img {
     display: flex;
     height: 580px;
     width: 100%;
 }
+
 .bigBloc h3 {
     margin-left: 15px;
 }
+
 .blocOfTwo {
     display: flex;
     flex-direction: column;
@@ -56,19 +428,23 @@ margin-top: 60px;
     height: auto;
     width: 40%;
 }
+
 .blocOfTwo a {
     text-decoration: none;
     color: black;
     text-align: left;
 }
+
 .blocOfTwo img {
     display: flex;
     height: 250px;
     width: 100%;
 }
+
 .blocOfTwo h3 {
     margin-left: 15px;
 }
+
 .fort {
     border: 2px solid #F2F2F2;
     border-radius: 20px;
@@ -76,12 +452,14 @@ margin-top: 60px;
     background-color: white;
     margin-bottom: 5px;
 }
+
 .iles {
     border: 2px solid #F2F2F2;
     border-radius: 20px;
     box-shadow: 8px 8px 12px #F2F2F2;
     background-color: white;
 }
+
 .dame {
     border: 2px solid #F2F2F2;
     border-radius: 20px;
@@ -89,6 +467,7 @@ margin-top: 60px;
     background-color: white;
     margin-bottom: 5px;
 }
+
 .parc {
     border: 2px solid #F2F2F2;
     border-radius: 20px;
@@ -96,7 +475,9 @@ margin-top: 60px;
     background-color: white;
 }
 
+
 /*     FOOTER     */
+
 footer {
     display: flex;
     justify-content: space-around;
@@ -105,90 +486,76 @@ footer {
     border-radius: 0px;
     background-color: #F2F2F2;
 }
+
 footer a {
     text-decoration: none;
     color: black;
     text-align: left;
 }
 
+
 /*       Responsive         */
+
 @media screen and (max-width: 992px) {
     /* Header */
-    
     #menu li {
         margin-left: 30px;
     }
-    
     .conteneur {
         width: auto;
     }
-    
     .ping {
         width: 5%;
     }
-    
     button {
         width: auto;
     }
-    
     .filtres {
         width: auto;
         justify-content: space-around;
     }
-    
     .filtres a {
         width: 30%;
     }
-    
     .filtres i {
         width: 20%;
         float: left;
     }
     /* Main*/
     /* Section Hebergements */
-    
     .bloc1 {
         flex-direction: column;
         margin: 5px;
     }
-    
     .bloc1 h3 {
         margin-bottom: 4px;
     }
-    
     .hebergementMarseille h2 {
         margin-left: 10px;
     }
-    
     .hebergements {
         width: 100%;
     }
-    
     .appartement {
         width: 35%;
         height: 30%;
     }
-    
     .appartement a {
         height: 250px;
     }
-    
     .appartement img {
         height: 120px;
         width: 100%;
     }
-    
     .premiereLigne {
         margin-left: 0px;
         margin-right: 0px;
     }
-    
     .deuxiemeLigne {
         margin-left: 0px;
         margin-right: 0px;
     }
     /* Section Populaires */
-    
     .populaires {
         flex-direction: column;
         width: 100%;
@@ -196,113 +563,92 @@ footer a {
         margin-left: 0px;
         margin-right: 0px;
     }
-    
     .plusPopulaires h2 {
         margin-left: 10px;
     }
-    
     .plusPopulaires i {
         margin-left: 400px;
     }
     /* Section Activités */
-    
     #activités {
         width: 100%;
         flex-direction: column;
     }
-    
     .bigBloc {
         margin: 0;
     }
-    
     .bigBloc img {
         height: 250px;
         width: 100%;
     }
-    
     .bigBloc a {
         width: 100%;
     }
-    
     .blocOfTwo {
         width: 100%;
         flex-direction: column;
         margin: 0;
     }
-    
     .blocOfTwo img {
         height: 250px;
         width: 100%;
     }
 }
+
 @media screen and (max-width: 768px) {
     /*      HEADER     */
-    
     #conteneur {
         flex-direction: column;
         align-items: center;
     }
-    
     #conteneur img {
         padding-left: 40px;
     }
-    
     #menu a {
         border-top: none;
         width: 100%;
     }
-    
     #menu ul {
         margin-top: 0;
     }
-    
     #menu li {
         margin-left: 20px;
         margin-right: 20px;
     }
-    
     .menuHebergement {
         padding-left: 10px;
         border-bottom: 4px solid #0065FC;
     }
-    
     .menuActivite {
         padding-right: 30px;
         padding-left: 20px;
         border-bottom: 4px solid #F2F2F2;
     }
-    
     #titre {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-    
     #titre p {
         margin-top: 0;
     }
-    
     #titre h1 {
         margin-bottom: 10px;
     }
-    
     #recherche {
         width: 95%;
         height: 35px;
         justify-content: center;
         margin-top: 15px;
     }
-    
     .ping {
         border: 0px;
         height: 35px !important;
     }
-    
     #recherche button {
         display: none;
     }
-    
     .boutonLoupe {
         display: flex !important;
         justify-content: center;
@@ -314,169 +660,136 @@ footer a {
         color: #F2F2F2;
         height: 35px !important;
     }
-    
     .boutonLoupe i {
         background-color: #0065FC !important;
     }
-    
     input #search {
         height: 35px !important;
     }
-    
     #search {
         border-right-style: none;
     }
-    
     .filtres {
         margin-top: 20px;
         display: flex;
         flex-direction: column;
         margin-left: 30px;
     }
-    
     .filtres p {
         text-align: left;
         margin-bottom: 0;
     }
-    
     .filtres ul {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
     }
-    
     .filtres a {
         width: 100%;
     }
-    
     .filtres li {
         width: 45%;
         margin-bottom: 10px;
         margin-right: 10px;
     }
-    
     .info p {
         margin-left: 30px;
     }
     /*   MAIN   */
     /* Section Hebergements */
-    
     .hebergements {
         width: 90%;
         margin: 30px;
     }
-    
     .premiereLigne {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
     .deuxiemeLigne {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
     .appartement {
         width: 90%;
     }
-    
     .appartement img {
         width: 100%;
     }
-    
     .appartement p {
         margin-top: 5px;
         margin-bottom: 5px;
     }
-    
     .appartement h3 {
         margin-bottom: 5px;
         margin-top: 30px;
     }
     /* Section Populaires */
-    
     .populaires {
         border: none;
         background-color: white;
     }
-    
     .plusPopulaires h2 {
         display: flex;
         width: 50%;
         margin-left: 30px;
     }
-    
     .plusPopulaires i {
         margin-left: 0;
     }
-    
     .populaire {
         box-shadow: 5px 5px 5px 5px #F2F2F2;
     }
     /* Section Activités */
-    
     .activiteMarseille {
         margin: 10px;
         margin-left: 30px;
     }
-    
     #activités {
         margin: 30px;
     }
-    
     .bigBloc {
         height: 250px;
         width: 90%;
         margin-bottom: 15px;
     }
-    
     .fort {
         height: 250px;
         width: 90%;
         margin-bottom: 15px;
     }
-    
     .iles {
         height: 250px;
         width: 90%;
         margin-bottom: 15px;
     }
-    
     .dame {
         height: 250px;
         width: 90%;
         margin-bottom: 15px;
     }
-    
     .parc {
         height: 250px;
         width: 90%;
         margin-bottom: 15px;
     }
-    
     .bigBloc img {
         height: 200px;
     }
-    
     .fort img {
         height: 200px;
     }
-    
     .iles img {
         height: 200px;
     }
-    
     .dame img {
         height: 200px;
     }
-    
     .parc img {
         height: 200px;
     }
     /*       FOOTER         */
-    
     footer {
         display: flex;
         flex-direction: column;
@@ -484,7 +797,6 @@ footer a {
         width: 100%;
         margin-left: 30px;
     }
-    
     #aPropos {
         display: flex;
         flex-direction: column;
@@ -492,16 +804,13 @@ footer a {
         align-items: flex-start;
         margin-left: 50px;
     }
-    
     #aPropos p {
         margin: 4px;
         margin-left: 0;
     }
-    
     #aPropos h3 {
         margin-top: 50px;
     }
-    
     #nosHebergements {
         display: flex;
         flex-direction: column;
@@ -509,16 +818,13 @@ footer a {
         align-items: flex-start;
         margin-left: 50px;
     }
-    
     #nosHebergements p {
         margin: 4px;
         margin-left: 0;
     }
-    
     #nosHebergements h3 {
         margin-top: 50px;
     }
-    
     #assistance {
         display: flex;
         flex-direction: column;
@@ -526,12 +832,10 @@ footer a {
         align-items: flex-start;
         margin-left: 50px;
     }
-    
     #assistance p {
         margin: 4px;
         margin-left: 0;
     }
-    
     #assistance h3 {
         margin-top: 50px;
     }
