@@ -828,7 +828,7 @@ footer a {
     #assistance {
         display: flex;
         flex-direction: column;
-        width: 70%;
+        width: 90%;
         align-items: flex-start;
         margin-left: 50px;
     }
