@@ -184,7 +184,7 @@ button {
     display: flex;
 }
 
-.bloc1 h4 {
+.bloc1 h3 {
     margin-bottom: 4px;
 }
 
@@ -220,7 +220,7 @@ img {
     margin: 0px;
 }
 
-.appartement h4 {
+.appartement h3 {
     margin-left: 10px;
 }
 
@@ -237,7 +237,7 @@ img {
     margin-top: 20px;
 }
 
-.hebergementMarseille h3 {
+.hebergementMarseille h2 {
     margin-left: 60px;
     margin-top: 40px;
     font-weight: bold;
@@ -323,7 +323,7 @@ img {
     margin-right: 30px;
 }
 
-.plusPopulaires h3 {
+.plusPopulaires h2 {
     margin-left: 40px;
 }
 
@@ -416,7 +416,7 @@ img {
     width: 100%;
 }
 
-.bigBloc h4 {
+.bigBloc h3 {
     margin-left: 15px;
 }
 
@@ -441,7 +441,7 @@ img {
     width: 100%;
 }
 
-.blocOfTwo h4 {
+.blocOfTwo h3 {
     margin-left: 15px;
 }
 
@@ -527,10 +527,10 @@ footer a {
         flex-direction: column;
         margin: 5px;
     }
-    .bloc1 h4 {
+    .bloc1 h3 {
         margin-bottom: 4px;
     }
-    .hebergementMarseille h3 {
+    .hebergementMarseille h2 {
         margin-left: 10px;
     }
     .hebergements {
@@ -563,7 +563,7 @@ footer a {
         margin-left: 0px;
         margin-right: 0px;
     }
-    .plusPopulaires h3 {
+    .plusPopulaires h2 {
         margin-left: 10px;
     }
     .plusPopulaires i {
@@ -633,7 +633,7 @@ footer a {
     #titre p {
         margin-top: 0;
     }
-    #titre h2 {
+    #titre h1 {
         margin-bottom: 10px;
     }
     #recherche {
@@ -721,7 +721,7 @@ footer a {
         margin-top: 5px;
         margin-bottom: 5px;
     }
-    .appartement h4 {
+    .appartement h3 {
         margin-bottom: 5px;
         margin-top: 30px;
     }
@@ -730,7 +730,7 @@ footer a {
         border: none;
         background-color: white;
     }
-    .plusPopulaires h3 {
+    .plusPopulaires h2 {
         display: flex;
         width: 50%;
         margin-left: 30px;
@@ -808,7 +808,7 @@ footer a {
         margin: 4px;
         margin-left: 0;
     }
-    #aPropos h4 {
+    #aPropos h3 {
         margin-top: 50px;
     }
     #nosHebergements {
@@ -822,7 +822,7 @@ footer a {
         margin: 4px;
         margin-left: 0;
     }
-    #nosHebergements h4 {
+    #nosHebergements h3 {
         margin-top: 50px;
     }
     #assistance {
@@ -836,7 +836,7 @@ footer a {
         margin: 4px;
         margin-left: 0;
     }
-    #assistance h4 {
+    #assistance h3 {
         margin-top: 50px;
     }
 }
